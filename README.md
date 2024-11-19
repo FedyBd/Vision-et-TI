@@ -5,21 +5,39 @@ Ce projet s’articule autour de l’acquisition et du traitement d’images cap
  
 # Plan du rapport : 
  Introduction 3
+ 
  1 appareilphotoetscènecapturée 4
+ 
  1.1 Appareilphoto:RedmiNote9S . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+ 
  1.2 Scènecapturée: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
  2 extractiondescanauxRGBetseshistogrammes 6
+ 
  2.1 DifférentscanauxRBG: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+ 
  2.2 HistogrammesdescanauxRGB: . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+ 
  2.3 Interprétation: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+ 
  3 Transformationenniveauxdegrisetbinarisation 8
+ 
  3.1 Transformationnenniveauxdegris . . . . . . . . . . . . . . . . . . . . . . . . . 8
+ 
  3.2 Binarisation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+ 
  4 détectiondecontour 10
+ 
  4.1 Filtragespatial . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+ 
  4.2 Filtragemorphologique . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+ 
  4.3 Interprétation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
  5 Étiquetageetcalculdelatailledesobjets 14
+ 
  5.1 Déterminationdelarésolutionspatiale . . . . . . . . . . . . . . . . . . . . . . . 14
+ 
  5.2 Déterminationdestaillesdesobjets . . . . . . . . . . . . . . . . . . . . . . . . . 15
+ 
  6 Conclusion
